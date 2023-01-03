@@ -10,12 +10,12 @@ import plugin from "../../lib/plugins/plugin.js";
  * 多个违禁词请用 | 隔开
  * 如：群主女装|给我色色
  */
-const forbiddenWord = "群主挨打";
+const forbiddenWord = "笑炸";
 
 /**
  * 触发违禁词时 机器人的回复语句
  */
-const replyStatement = "不可以打群主，看我禁言你！";
+const replyStatement = "不可以笑，看我禁言你！";
 
 export class muteCommdity extends plugin {
     constructor() {
